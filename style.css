@@ -1,0 +1,73 @@
+
+body {
+    background-image: url(https://mrwallpaper.com/images/hd/so-sad-girl-in-grey-scale-xf04mjlqx9uljwq2.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.container {
+    text-align: center;
+}
+
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #555555;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #555555;
+    transform: scale(1.05);
+}
+
+
+#imageContainer {
+    display: none;
+    text-align: center;
+}
+
+#imageContainer h1 {
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+#imageContainer img {
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+iframe {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
